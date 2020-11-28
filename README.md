@@ -1,5 +1,5 @@
 # simpleDynamicSiteNodeJs
- Site with browser of Teamtreehouse users profiles - exercise.
+ Site with a browser of Teamtreehouse users profiles - exercise.
 
 Building simple dynamic site with Node.js 
  Site is suppose to give possibility to browse through Treehouse users 
