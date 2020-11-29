@@ -1,41 +1,20 @@
-//1. Create a web server
+//Create a web server
     //response.end('Hello World/n');
+const router = require("./router.js")
 const http = require('http');
 
 const hostname = '127.0.0.1';
 const port = 3000;
 
 const server = http.createServer((req, res) => {
-    homeRoute(req, res);
+    router.home(req, res);
+    router.user(req, res);
 });
 
 server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
 });
 
-//2. Handle HTTP route GET / and POST / i.e. Home
-function homeRoute(req, res) {
-    //if url == "/" && GET
-    if (req.url === "/") {
-        //show search
-        res.statusCode = 200;
-        res.setHeader('Content-Type', 'text/plain');
-        res.write("Header\n");
-        res.write("Search\n");
-        res.end("Footer\n");
-}
-    //if url == "/" && POST
-        //redirect to /:username
-}
-
-//3.  Handle HTTP route GET /:username i.e /chalkers
-    //if url == "/...."
-        //get json from Treehouse
-            //on "end"
-                //show profile
-            //on "error"
-                //show error
-
-//4. Function that handles the reading of files and merge value
+//Function that handles the reading of files and merge value
     //read from file and get a string
         //merge values in string
