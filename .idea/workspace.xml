@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ba1540-c441-458f-8f8a-806eae66d793" name="Default Changelist" comment="Gets JSON fragments from Treehouse.com">
-      <change beforePath="$PROJECT_DIR$/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/router.js" afterDir="false" />
-    </list>
+    <list default="true" id="36ba1540-c441-458f-8f8a-806eae66d793" name="Default Changelist" comment="Adds error handler" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606679819807</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adds error handler">
+      <created>1606679990823</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606679990823</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +174,8 @@
     <MESSAGE value="Creates userRoute" />
     <MESSAGE value="Creates userRoute and router.js" />
     <MESSAGE value="Gets JSON fragments from Treehouse.com" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gets JSON fragments from Treehouse.com" />
+    <MESSAGE value="Adds error handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds error handler" />
   </component>
   <component name="WindowStateProjectService">
     <state x="656" y="360" key="#Notifications" timestamp="1606609801325">
@@ -196,10 +202,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="350" y="138" key="SettingsEditor/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606609685190" />
-    <state x="451" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606679827508">
+    <state x="451" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606679993075">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="-1469" y="353" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@-1920.108.1920.1040" timestamp="1606599394955" />
-    <state x="451" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606679827508" />
+    <state x="451" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606679993075" />
   </component>
 </project>
