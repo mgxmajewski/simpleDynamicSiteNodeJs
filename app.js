@@ -6,10 +6,7 @@ const hostname = '127.0.0.1';
 const port = 3000;
 
 const server = http.createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.write(new Date() + "\n")
-    res.end('Hello World, I love you');
+    homeRoute(req, res);
 });
 
 server.listen(port, hostname, () => {
@@ -17,10 +14,18 @@ server.listen(port, hostname, () => {
 });
 
 //2. Handle HTTP route GET / and POST / i.e. Home
+function homeRoute(req, res) {
     //if url == "/" && GET
         //show search
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/plain');
+        res.write("Header\n");
+        res.write("Search\n");
+        res.end("Footer\n");
+
     //if url == "/" && POST
         //redirect to /:username
+}
 
 //3.  Handle HTTP route GET /:username i.e /chalkers
     //if url == "/...."
