@@ -1,6 +1,6 @@
 //Create a web server
     //response.end('Hello World/n');
-const router = require("./router.js")
+const router = require("./router")
 const http = require('http');
 
 const hostname = '127.0.0.1';

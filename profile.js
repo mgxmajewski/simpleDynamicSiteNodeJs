@@ -15,23 +15,23 @@ function Profile(username) {
     var profileEmitter = this;
 
     //Connect to the API URL (https://teamtreehouse.com/username.json)
-    var request = https.get("https://teamtreehouse.com/" + username + ".json", function(response) {
+    var req = https.get("https://teamtreehouse.com/" + username + ".json", function(res) {
         var body = "";
 
-        if (response.statusCode !== 200) {
-            request.abort();
+        if (res.statusCode !== 200) {
+            req.abort();
             //Status Code Error
-            profileEmitter.emit("error", new Error("There was an error getting the profile for " + username + ". (" + http.STATUS_CODES[response.statusCode] + ")"));
+            profileEmitter.emit("error", new Error("There was an error getting the profile for " + username + ". (" + http.STATUS_CODES[res.statusCode] + ")"));
         }
 
         //Read the data
-        response.on('data', function (chunk) {
+        res.on('data', function (chunk) {
             body += chunk;
             profileEmitter.emit("data", chunk);
         });
 
-        response.on('end', function () {
-            if(response.statusCode === 200) {
+        res.on('end', function () {
+            if(res.statusCode === 200) {
                 try {
                     //Parse the data
                     var profile = JSON.parse(body);
