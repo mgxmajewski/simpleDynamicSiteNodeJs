@@ -8,8 +8,11 @@ const port = 3000;
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.write(new Date() + "\n")
-    res.end('Hello World, I love you');
+    setInterval(function(){
+        res.write(new Date() + "\n");
+    }, 1000);
+
+    //res.end('Hello World, I love you');
 });
 
 server.listen(port, hostname, () => {
