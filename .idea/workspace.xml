@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ba1540-c441-458f-8f8a-806eae66d793" name="Default Changelist" comment="Adds initial files.">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="36ba1540-c441-458f-8f8a-806eae66d793" name="Default Changelist" comment="Adds pseudocode to app.js">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606598306200</updated>
-      <workItem from="1606598307895" duration="880000" />
+      <workItem from="1606598307895" duration="5819000" />
     </task>
     <task id="LOCAL-00001" summary="Updates README.md">
       <created>1606598392970</created>
@@ -79,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606598564503</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adds pseudocode to app.js">
+      <created>1606599386869</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606599386869</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,12 +108,13 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Updates README.md" />
     <MESSAGE value="Adds initial files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds initial files." />
+    <MESSAGE value="Adds pseudocode to app.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds pseudocode to app.js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1469" y="353" key="Vcs.Push.Dialog.v2" timestamp="1606598568883">
+    <state x="-1469" y="353" key="Vcs.Push.Dialog.v2" timestamp="1606599394955">
       <screen x="-1920" y="108" width="1920" height="1040" />
     </state>
-    <state x="-1469" y="353" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@-1920.108.1920.1040" timestamp="1606598568883" />
+    <state x="-1469" y="353" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@-1920.108.1920.1040" timestamp="1606599394955" />
   </component>
 </project>
