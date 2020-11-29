@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ba1540-c441-458f-8f8a-806eae66d793" name="Default Changelist" comment="Adds search.html and footer.html">
-      <change beforePath="$PROJECT_DIR$/views/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/search.html" afterDir="false" />
-    </list>
+    <list default="true" id="36ba1540-c441-458f-8f8a-806eae66d793" name="Default Changelist" comment="Adds html files: error, profile and search" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606680994105</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Adds html files: error, profile and search">
+      <created>1606681350826</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606681350826</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +198,8 @@
     <MESSAGE value="Adds error handler" />
     <MESSAGE value="Adds header.html into created views folder" />
     <MESSAGE value="Adds search.html and footer.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds search.html and footer.html" />
+    <MESSAGE value="Adds html files: error, profile and search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds html files: error, profile and search" />
   </component>
   <component name="WindowStateProjectService">
     <state x="656" y="360" key="#Notifications" timestamp="1606609801325">
@@ -220,10 +226,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="350" y="138" key="SettingsEditor/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606609685190" />
-    <state x="451" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606680995470">
+    <state x="451" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606681357414">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="-1469" y="353" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@-1920.108.1920.1040" timestamp="1606599394955" />
-    <state x="451" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606680995470" />
+    <state x="451" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606681357414" />
   </component>
 </project>
