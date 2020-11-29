@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ba1540-c441-458f-8f8a-806eae66d793" name="Default Changelist" comment="Adds pseudocode to app.js">
+    <list default="true" id="36ba1540-c441-458f-8f8a-806eae66d793" name="Default Changelist" comment="Creates a Simple Server&#10;Node.js example code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
@@ -43,11 +43,23 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606598306200</updated>
-      <workItem from="1606598307895" duration="5819000" />
+      <workItem from="1606598307895" duration="6324000" />
+      <workItem from="1606609814959" duration="1388000" />
     </task>
     <task id="LOCAL-00001" summary="Updates README.md">
       <created>1606598392970</created>
@@ -87,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606599386869</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creates a Simple Server&#10;Node.js example code">
+      <created>1606609320492</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606609320492</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,15 +123,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Updates README.md" />
     <MESSAGE value="Adds initial files." />
     <MESSAGE value="Adds pseudocode to app.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds pseudocode to app.js" />
+    <MESSAGE value="Creates a Simple Server&#10;Node.js example code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creates a Simple Server&#10;Node.js example code" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="656" y="360" key="#Notifications" timestamp="1606609801325">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="656" y="360" key="#Notifications/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606609801325" />
+    <state x="350" y="138" key="SettingsEditor" timestamp="1606609685190">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="350" y="138" key="SettingsEditor/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606609685190" />
     <state x="-1469" y="353" key="Vcs.Push.Dialog.v2" timestamp="1606599394955">
       <screen x="-1920" y="108" width="1920" height="1040" />
     </state>
