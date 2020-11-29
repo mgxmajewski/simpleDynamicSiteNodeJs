@@ -10,9 +10,9 @@ function home(req, res) {
         res.statusCode = 200;
         res.setHeader('Content-Type', 'text/plain');
         render.view("header", {}, res);
-        res.write("Header\n");
-        res.write("Search\n");
-        res.end("Footer\n");
+        render.view("search", {}, res);
+        render.view("footer", {}, res);
+        res.end();
     }
     //if url == "/" && POST
     //redirect to /:username
@@ -26,7 +26,7 @@ function user(req, res) {
     if (username.length > 0) {
         res.statusCode = 200;
         res.setHeader('Content-Type', 'text/plain');
-        res.write("Header\n");
+        render.view("header", {}, res);
         //get json from Treehouse
 
         let studentProfile = new Profile(username);
@@ -43,15 +43,18 @@ function user(req, res) {
                 javascriptPoints: profileJSON.points.JavaScript
             }
             //simple response
-            res.write(values.username + " has " + values.badges + " badges\n");
-            res.end("Footer\n");
+            render.view("profile", values, res);
+            render.view("footer", {}, res);
+            res.end();
         });
 
         //on "error"
         studentProfile.on("error", function (error){
             //show error
-            res.write(error.message + "\n")
-            res.end("Footer\n");
+            render.view("error", {errorMessage: error.message}, res);
+            render.view("search", {}, res);
+            render.view("footer", {}, res);
+            res.end();
         });
 
     }
