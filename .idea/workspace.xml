@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ba1540-c441-458f-8f8a-806eae66d793" name="Default Changelist" comment="Adds error handler" />
+    <list default="true" id="36ba1540-c441-458f-8f8a-806eae66d793" name="Default Changelist" comment="Adds header.html into created views folder">
+      <change afterPath="$PROJECT_DIR$/views/footer.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606679990823</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Adds header.html into created views folder">
+      <created>1606680744663</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606680744663</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,37 +184,38 @@
     <MESSAGE value="Creates userRoute and router.js" />
     <MESSAGE value="Gets JSON fragments from Treehouse.com" />
     <MESSAGE value="Adds error handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds error handler" />
+    <MESSAGE value="Adds header.html into created views folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds header.html into created views folder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="656" y="360" key="#Notifications" timestamp="1606609801325">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="656" y="360" key="#Notifications/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606609801325" />
-    <state width="1863" height="306" key="GridCell.Tab.0.bottom" timestamp="1606679953911">
+    <state width="1863" height="306" key="GridCell.Tab.0.bottom" timestamp="1606680708455">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1863" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606679953911" />
-    <state width="1863" height="306" key="GridCell.Tab.0.center" timestamp="1606679953911">
+    <state width="1863" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606680708455" />
+    <state width="1863" height="306" key="GridCell.Tab.0.center" timestamp="1606680708455">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1863" height="306" key="GridCell.Tab.0.center/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606679953911" />
-    <state width="1863" height="306" key="GridCell.Tab.0.left" timestamp="1606679953910">
+    <state width="1863" height="306" key="GridCell.Tab.0.center/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606680708455" />
+    <state width="1863" height="306" key="GridCell.Tab.0.left" timestamp="1606680708455">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1863" height="306" key="GridCell.Tab.0.left/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606679953910" />
-    <state width="1863" height="306" key="GridCell.Tab.0.right" timestamp="1606679953911">
+    <state width="1863" height="306" key="GridCell.Tab.0.left/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606680708455" />
+    <state width="1863" height="306" key="GridCell.Tab.0.right" timestamp="1606680708455">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1863" height="306" key="GridCell.Tab.0.right/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606679953911" />
+    <state width="1863" height="306" key="GridCell.Tab.0.right/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606680708455" />
     <state x="350" y="138" key="SettingsEditor" timestamp="1606609685190">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="350" y="138" key="SettingsEditor/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606609685190" />
-    <state x="451" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606679993075">
+    <state x="451" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606680748051">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="-1469" y="353" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@-1920.108.1920.1040" timestamp="1606599394955" />
-    <state x="451" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606679993075" />
+    <state x="451" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606680748051" />
   </component>
 </project>
