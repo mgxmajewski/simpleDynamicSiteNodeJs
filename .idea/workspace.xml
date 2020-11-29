@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ba1540-c441-458f-8f8a-806eae66d793" name="Default Changelist" comment="Adds header.html into created views folder">
-      <change afterPath="$PROJECT_DIR$/views/footer.html" afterDir="false" />
+    <list default="true" id="36ba1540-c441-458f-8f8a-806eae66d793" name="Default Changelist" comment="Adds search.html and footer.html">
+      <change beforePath="$PROJECT_DIR$/views/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/search.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606680744663</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Adds search.html and footer.html">
+      <created>1606680994105</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606680994105</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +192,8 @@
     <MESSAGE value="Gets JSON fragments from Treehouse.com" />
     <MESSAGE value="Adds error handler" />
     <MESSAGE value="Adds header.html into created views folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds header.html into created views folder" />
+    <MESSAGE value="Adds search.html and footer.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds search.html and footer.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="656" y="360" key="#Notifications" timestamp="1606609801325">
@@ -212,10 +220,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="350" y="138" key="SettingsEditor/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606609685190" />
-    <state x="451" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606680748051">
+    <state x="451" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606680995470">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="-1469" y="353" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@-1920.108.1920.1040" timestamp="1606599394955" />
-    <state x="451" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606680748051" />
+    <state x="451" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606680995470" />
   </component>
 </project>
