@@ -27,7 +27,7 @@ function home(req, res) {
             req.on("data", function (postBody){
                 //extract the user name
                 const query = querystring.parse(postBody.toString());
-                res.write(query.username);
+                res.writeHead(303, {"Location": "/" + query.username});
                 res.end();
             });
 
