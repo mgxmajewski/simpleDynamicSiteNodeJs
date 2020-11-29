@@ -1,9 +1,5 @@
 const Profile = require("./profile.js");
 const render = require("./render.js");
-
-
-
-
 const querystring = require("querystring");
 const name = 'Content-Type';
 const value = 'text/html';
