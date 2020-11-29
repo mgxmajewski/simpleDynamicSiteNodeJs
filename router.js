@@ -3,24 +3,42 @@ const render = require("./render.js");
 
 
 
-//Handle HTTP route GET / and POST / i.e. Home
+
+const querystring = require("querystring");
 const name = 'Content-Type';
 const value = 'text/html';
+
+
+//Handle HTTP route GET / and POST / i.e. Home
+
 
 function home(req, res) {
     //if url == "/" && GET
     if (req.url === "/") {
-        //show search
-        res.statusCode = 200;
+        if(req.method.toLowerCase() === "get") {
+            //show search
+            res.statusCode = 200;
 
-        res.setHeader(name, value);
-        render.view("header", {}, res);
-        render.view("search", {}, res);
-        render.view("footer", {}, res);
-        res.end();
+            res.setHeader(name, value);
+            render.view("header", {}, res);
+            render.view("search", {}, res);
+            render.view("footer", {}, res);
+            res.end();
+        } else {
+            //if url == "/" && POST
+
+            //get the post data from body
+            req.on("data", function (postBody){
+                //extract the user name
+                const query = querystring.parse(postBody.toString());
+                res.write(query.username);
+                res.end();
+            });
+
+            //redirect to /:username
+        }
     }
-    //if url == "/" && POST
-    //redirect to /:username
+
 }
 
 //Handle HTTP route GET /:username i.e /chalkers
