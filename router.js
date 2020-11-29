@@ -1,5 +1,6 @@
-let Profile;
-Profile = require("./profile.js");
+const Profile = require("./profile.js");
+
+const render = require("./render.js");
 
 //Handle HTTP route GET / and POST / i.e. Home
 function home(req, res) {
@@ -8,6 +9,7 @@ function home(req, res) {
         //show search
         res.statusCode = 200;
         res.setHeader('Content-Type', 'text/plain');
+        render.view("header", {}, res);
         res.write("Header\n");
         res.write("Search\n");
         res.end("Footer\n");

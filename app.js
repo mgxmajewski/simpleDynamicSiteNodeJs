@@ -14,7 +14,3 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
 });
-
-//Function that handles the reading of files and merge value
-    //read from file and get a string
-        //merge values in string
